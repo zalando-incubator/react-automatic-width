@@ -4,7 +4,7 @@
 
 So, you found those cool components like ([fixed-data-table](https://facebook.github.io/fixed-data-table/) and [react-d3-components](https://github.com/codesuki/react-d3-components) that do whatever you want, with just one problem: They only work on fixed width! You care about responsiveness and different display sizes. You want variable width! **HULK SMASH!**
 
-One solution: Just wrap it in `AutoWidth`. Now, this:
+One solution: Just wrap it in `AutoWidth`, so that this:
 ~~~ jsx
 import D3 from 'react-d3-components';
 
@@ -23,19 +23,21 @@ import AutoWidth from '@zalando/react-automatic-width';
 </AutoWidth>
 ~~~
 
-## Installation & Usage
+**Here, give a direct statement about the project: react-automatic-width is an [UMD](https://github.com/umdjs/umd) module that accepts any property you throw at it. This way, you can use classes and media queries for the autowidth container.**
 
-Install it with:
+**Some questions: Is this project like anything else out there? If not, say that. If yes: Does it do something better/different/faster/simpler? What is it like, and what is it not like (here, you want to preemptively respond to "yeah, but isn't this like ...?" questions); what is it especially good for? who is your target audience?**
+
+### Installation & Usage
+
+Install react-automatic-width with:
 
     npm i -S @zalando/react-automatic-width
 
-Then load it however you want (it's an UMD module). It accepts any property you throw at it, this way you can use classes and media queries for the autowidth container.
-
+Then load it however you want:
 
     <AutoWidth className="responsive">
         <D3.BarChart />
     </AutoWidth>
-
 
 ## How?
 
