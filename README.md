@@ -23,7 +23,7 @@ import AutoWidth from '@zalando/react-automatic-width';
 </AutoWidth>
 ~~~
 
-**Here, give a direct statement about the project: react-automatic-width is an [UMD](https://github.com/umdjs/umd) module that automatically sets `width` property on child components. It works out-of-the-box and accepts any property you throw at it. This way, you can use classes and media queries for the autowidth container.** 
+**Here, give a direct statement about the project**: react-automatic-width is an [UMD](https://github.com/umdjs/umd) module that automatically sets `width` property on child components. It works out-of-the-box and accepts any property you throw at it. This way, you can use classes and media queries for the autowidth container.
 
 **react-automatic-width does its job by attaching a listener to (*a*, or *the*?) `resize` event of `window`. In it, the component reads the current width of its DOM node and sets this as the `width` property on its children.**
 
