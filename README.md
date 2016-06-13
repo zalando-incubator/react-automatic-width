@@ -30,10 +30,10 @@ import AutoWidth from '@zalando/react-automatic-width';
 **Some questions: Is this project like anything else out there? If not, say that. If yes: Does it do something better/different/faster/simpler? What is it like, and what is it not like (here, you want to preemptively respond to "yeah, but isn't this like ...?" questions); what is it especially good for? who is your target audience?**
 
 **Also, briefly state:**
-- dev status (is it buggy? would you trust it? etc.)
-- technical requirements/what a person needs to get it up and running
-- incompatibilities, if any
-- what it works particularly well with/on, and not-so-well (if appropriate)
+- **dev status (is it buggy? would you trust it? etc.)**
+- **technical requirements/what a person needs to get it up and running**
+- **incompatibilities, if any**
+- **what it works particularly well with/on, and not-so-well (if appropriate)**
 
 ### Installation & Usage
 
@@ -47,7 +47,7 @@ Then load it however you want:
         <D3.BarChart />
     </AutoWidth>
 
-### Contributing
+###Issues/Contributing
 
 This project welcomes contributions from the community. Here are some issues and areas where we could use some help:
 * Uses `addEventListener`, so currently there's no IE8. PRs welcome.
