@@ -2,8 +2,9 @@
 
 [![Build Status](https://travis-ci.org/zalando/react-automatic-width.svg?branch=master)](https://travis-ci.org/zalando/react-automatic-width) [![Coverage Status](https://coveralls.io/repos/github/zalando/react-automatic-width/badge.svg?branch=master)](https://coveralls.io/github/zalando/react-automatic-width?branch=master)
 
-So you found those cool components that do what you want, but they work on fixed width! ([fixed-data-table](https://facebook.github.io/fixed-data-table/) or [react-d3-components](https://github.com/codesuki/react-d3-components) for instance.)
+So, you found those cool components like ([fixed-data-table](https://facebook.github.io/fixed-data-table/) and [react-d3-components](https://github.com/codesuki/react-d3-components) that do whatever you want, with just one problem: They only work on fixed width! You care about responsiveness and different display sizes. You want variable width! **HULK SMASH!**
 
+One solution: Just wrap it in `AutoWidth`. Now, this:
 ~~~ jsx
 import D3 from 'react-d3-components';
 
@@ -11,9 +12,7 @@ import D3 from 'react-d3-components';
     width={500} /> // ;_;
 ~~~
 
-You care about responsiveness and different display sizes! You want variable width! HULK SMASH!
-
-Solution: Just wrap it in `AutoWidth`.
+Can work like this: 
 
 ~~~ jsx
 import D3 from 'react-d3-components';
